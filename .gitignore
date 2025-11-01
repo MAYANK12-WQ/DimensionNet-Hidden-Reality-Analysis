@@ -54,6 +54,11 @@ experiments/output/
 !assets/screenshots/dashboard.png
 !assets/results/swiss_roll.png
 !assets/results/dimension_comparison.png
+!assets/results/3d_vs_5d_comparison.png
+!assets/results/variance_explained_proof.png
+!assets/results/reconstruction_quality.png
+!assets/results/latent_space_analysis.png
+!assets/results/detection_process.png
 !assets/viz/training_animation.png
 assets/viz/*.gif
 assets/viz/*.mp4
