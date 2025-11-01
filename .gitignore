@@ -46,12 +46,14 @@ tb_logs/
 .streamlit/
 
 # Results
-results/
 outputs/
 experiments/output/
 
-# Assets (keep structure but ignore large files)
-assets/screenshots/*.png
-assets/results/*.png
+# Assets - Allow static README images, ignore generated outputs
+!assets/banner.png
+!assets/screenshots/dashboard.png
+!assets/results/swiss_roll.png
+!assets/results/dimension_comparison.png
+!assets/viz/training_animation.png
 assets/viz/*.gif
 assets/viz/*.mp4
