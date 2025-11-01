@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data
+data/
+datasets/
+*.npy
+*.h5
+*.hdf5
+*.pkl
+
+# Models
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+logs/
+wandb/
+*.log
+tb_logs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Results
+results/
+outputs/
+experiments/output/
+
+# Assets (keep structure but ignore large files)
+assets/screenshots/*.png
+assets/results/*.png
+assets/viz/*.gif
+assets/viz/*.mp4
